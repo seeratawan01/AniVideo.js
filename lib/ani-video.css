@@ -1,6 +1,7 @@
 
 
 .ani-video-wrapper {
+    font-family: 'Inter', sans-serif;;
     width: 100%;
     height: auto;
     background-size: cover;
@@ -32,7 +33,7 @@
     left: 0;
     height: 100%;
     width: 100%;
-    padding: 25px;
+    padding: 2rem 4rem;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -44,7 +45,26 @@
 
 .ani-video-overlay h1 {
     pointer-events: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.4;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 0;
 }
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .ani-video-overlay {
+        padding: 2rem 2.4rem;
+    }
+
+    .ani-video-overlay h1 {
+        font-size: 1.8rem;
+    }
+}
+
 
 .ani-video-track {
     background-color: #f1f1f1;
@@ -56,4 +76,25 @@
     background: deepskyblue;
     height:4px;
     width: 0;
+}
+
+.ani-video-overlay-btn {
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: inherit;
+    text-decoration: none;
+    background: #e81e61;
+    font-weight: 700;
+    padding: 1rem 1.9rem;
+    border-radius: 50px;
+    margin-top: 4px;
+    transition: all 0.3s linear;
+    border: none;
+    cursor: pointer;
+}
+
+.ani-video-overlay-btn:hover {
+    background: #ffffff;
+    color: #e81e61;
+    font-weight: 700;
 }
