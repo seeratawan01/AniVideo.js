@@ -1,0 +1,18 @@
+{
+  "name": "ani-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "yarn compress-js && yarn compress-css",
+    "compress-js": "gulp minify-js",
+    "compress-css": "gulp minify-css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-uglify": "^3.0.2",
+  }
+}
