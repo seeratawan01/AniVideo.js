@@ -4,7 +4,7 @@
     font-family: 'Inter', sans-serif;;
     width: 100%;
     height: auto;
-    background-size: cover;
+    background-size: 110%;
     background-position: center;
     background-repeat: no-repeat;
     background-color: black;
@@ -44,6 +44,7 @@
 }
 
 .ani-video-overlay h1 {
+    -webkit-font-smoothing: antialiased;
     pointer-events: none;
     font-style: normal;
     font-weight: 600;
@@ -119,5 +120,10 @@
     .ani-video-overlay h1 {
         font-size: 1.4rem;
         margin-bottom: 0.7rem;
+    }
+
+    .ani-video-overlay-btn {
+        font-size: 0.78rem;
+        padding: 0.7rem 0.9rem;
     }
 }
