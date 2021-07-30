@@ -113,3 +113,11 @@
         padding: 0.8rem 1.4rem;
     }
 }
+
+
+@media (max-width: 400px) {
+    .ani-video-overlay h1 {
+        font-size: 1.4rem;
+        margin-bottom: 0.7rem;
+    }
+}
