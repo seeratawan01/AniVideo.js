@@ -1,15 +1,30 @@
 {
   "name": "ani-video",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
+  "description": "AniVideo.js is a simple, light-weighted and easy to use JavaScript library to combine animations (gifs) and a video together to create beautiful websites.",
+  "main": "dist/fullview.js",
+  "authors": [
+    "Seerat Awan https://github.com/seeratawan01"
+  ],
   "scripts": {
     "build": "yarn compress-js && yarn compress-css",
     "compress-js": "gulp minify-js",
     "compress-css": "gulp minify-css"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:seeratawan01/AniVideo.js.git"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "README.md"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seeratawan01/AniVideo.js/issues"
+  },
+  "homepage": "https://github.com/seeratawan01/AniVideo.js",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.3.0",
