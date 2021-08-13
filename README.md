@@ -12,10 +12,16 @@ All you will need to include:
 
 ### Including files:
 ```html
-<link rel="stylesheet" type="text/css" href="./dist/ani-video.css" />
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/ani-video@1.0.1/dist/ani-video.css" />
 
 <!-- Javascript Files -->
-<script type="text/javascript" src="./dist/ani-video.js"></script>
+<script type="text/javascript" src="https://unpkg.com/ani-video@1.0.1/dist/ani-video.js"></script>
+```
+
+### Using NPM
+**Optionally**, you can install AniVideo.js with npm
+```bash
+npm install ani-video
 ```
 
 ## Usage
