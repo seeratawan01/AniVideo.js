@@ -9,6 +9,35 @@
     background-repeat: no-repeat;
     background-color: black;
     position: relative;
+    font-size: 10px;
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    .ani-video-wrapper {
+        font-size: 11px;
+    }
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    .ani-video-wrapper {
+        font-size: 13px;
+    }
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .ani-video-wrapper {
+        font-size: 15px;
+    }
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .ani-video-wrapper {
+        font-size: 16px;
+    }
 }
 
 .ani-video-wrapper > * {
@@ -48,7 +77,7 @@
     pointer-events: none;
     font-style: normal;
     font-weight: 600;
-    font-size: 3rem;
+    font-size: 3em;
     line-height: 1.4;
     text-align: center;
     color: #FFFFFF;
@@ -68,7 +97,7 @@
 }
 
 .ani-video-overlay-btn {
-    font-size: 1rem;
+    font-size: 1em;
     color: #ffffff;
     font-family: inherit;
     text-decoration: none;
@@ -89,41 +118,11 @@
 }
 
 
-@media (max-width: 700px) {
-
-
+@media (max-width: 768px) {
     .ani-video-overlay h1 {
-        font-size: 2.5rem;
+        font-size: 2.5em;
     }
-
-}
-
-
-@media (max-width: 600.98px) {
     .ani-video-overlay {
         padding: 2rem 2.4rem;
-    }
-
-    .ani-video-overlay h1 {
-        font-size: 1.8rem;
-        margin-bottom: 0.8rem;
-    }
-
-    .ani-video-overlay-btn {
-        font-size: 0.9rem;
-        padding: 0.8rem 1.4rem;
-    }
-}
-
-
-@media (max-width: 400px) {
-    .ani-video-overlay h1 {
-        font-size: 1.4rem;
-        margin-bottom: 0.7rem;
-    }
-
-    .ani-video-overlay-btn {
-        font-size: 0.73rem;
-        padding: 0.7rem 0.9rem;
     }
 }
