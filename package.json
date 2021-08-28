@@ -1,6 +1,6 @@
 {
   "name": "ani-video",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "AniVideo.js is a simple, light-weighted and easy to use JavaScript library to combine animations (gifs) and a video together to create beautiful websites.",
   "main": "dist/ani-video.js",
   "authors": [
