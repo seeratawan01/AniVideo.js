@@ -40,6 +40,28 @@
     }
 }
 
+/*// X-Large devices (large desktops, 1300px and up)*/
+@media (min-width: 1300px) {
+    .ani-video-wrapper {
+        font-size: 18px;
+    }
+}
+
+/*// X-Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+    .ani-video-wrapper {
+        font-size: 22px;
+    }
+}
+
+/*// X-Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1900px) {
+    .ani-video-wrapper {
+        font-size: 28px;
+    }
+}
+
+
 .ani-video-wrapper > * {
     box-sizing: border-box;
 }
